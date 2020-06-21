@@ -1,11 +1,6 @@
 name: PR check
 
-on:
-  pull_request:
-    paths-ignore:
-      - deployment/**
-      - design/**
-      - README.md
+on: pull_request
 
 jobs:
   check-links:
